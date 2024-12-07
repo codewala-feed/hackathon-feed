@@ -1,0 +1,55 @@
+.top-nav{
+    float: left;
+    width: 100%;
+    background-color: grey;
+}
+
+.top-nav li{
+    display: inline;
+    float: left;
+    width: 22%;
+    font-size: 30px;
+    margin: 0% 2% 1% 0.2%;
+    text-align: center;
+    border: 4px solid aliceblue;
+    background-color: aliceblue;
+    padding: 0.5% 0% 0.5% 0%;
+}
+
+.side-nav{
+    float: left;
+    width: 15%;
+    background-color: gray;
+    height: 620px;
+    margin: 0.3% 0% 0% 0%;
+}
+
+.side-nav li{
+    list-style-type: none;
+    font-size: 30px;
+    margin: 43% 0% 43% -19%;
+    color: aliceblue;
+    text-align: center;
+}
+
+.image-div{
+    float: left;
+    width: 84.6%;
+}
+
+.image-div img{
+    float: left;
+    width: 100%;
+    height: 620px;
+    margin: 0.3% 0% 0% 0.4%;
+}
+
+.bottom-div{
+    float: left;
+    width: 100%;
+    background-color: grey;
+    margin: 0.3% 0% 0% 0%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
