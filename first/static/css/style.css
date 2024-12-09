@@ -143,3 +143,14 @@
    margin: 7% 0% 0% 0%;
 }
 
+.test{
+   float: left;
+   width: 50%;
+   background-color: antiquewhite;
+   margin: 20% 0% 20% 25%;
+   padding: 2% 0% 2% 0%;
+}
+
+.test button{
+   font-size: 30px;
+}

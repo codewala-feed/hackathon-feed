@@ -48,8 +48,8 @@
 
     <div class="register-div">
         <h1>Please Register✏️</h1>
-        <form action="/reg_data" method="post">
-            <input type="text" required placeholder="Enter Name" name="u_name">
+        <form action="/reg_data" method="post" onsubmit="alert('submitted')">
+            <input type="text" id="inp1" onfocus="focussed()" onblur="moved()" required placeholder="Enter Name" name="u_name">
             <input type="email" required placeholder="Enter Email" name="u_email">
             <input type="number" required placeholder="Enter Phone" name="u_num">
             <input type="password" required placeholder="Enter Password" name="u_pwd">
@@ -66,5 +66,18 @@
         </form>
     </div>
 
+    <div style="clear: both;"></div>
+
+    <div class="test">
+        <button onclick="alert('clicked')">click1</button>
+        <button ondblclick="alert('double cicked')"
+            onmouseleave="alert('mouse left')"
+            >click2</button>
+        <button oncontextmenu="alert('right clicked')">click3</button>
+        <button id="btn4" onmouseenter="entered()" onmouseleave="leaving()">click4</button>
+        <button id="btn5" onmousedown="hold()" onmouseup="release()">click5</button>
+    </div>
+
+    <script src="../static/js/style.js"></script>
 </body>
 </html>
